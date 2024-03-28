@@ -1,0 +1,45 @@
+name: Standard_bank
+
+channels:
+  - conda-forge
+
+dependencies:
+  - bokeh
+  # - dask
+  # - dask-ml
+  # - dask-labextension
+  # - datashader
+  # - featuretools
+  # - gh
+  - git
+  # - holoviews
+  # - hvplot
+  - imbalanced-learn
+  - ipython-sql
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-lsp
+  # - lightgbm
+  # - matplotlib
+  # - numba
+  - numpy
+  # - optuna
+  - pandas
+  # - panel
+  - pip
+  - pip:
+    - -r requirements.txt
+  - pyarrow
+  - python
+  - python-language-server
+  # - pyviz_comms
+  - scikit-learn
+  - scipy
+  # - shap
+  # - soci-sqlite
+  # - umap-learn
+  # - wandb
+  # - xarray
+  # - xeus-python
+  # - xeus-sql
+  - xgboost
