@@ -1,6 +1,8 @@
+import os
+import argparse
 import pandas as pd
 import numpy as np 
-
+import matplotlib.pyplot as plt 
 from sklearn import model_selection
 from sklearn import preprocessing
 from sklearn import linear_model
@@ -9,6 +11,7 @@ from sklearn import metrics
 from colorama import Fore 
 from tqdm import tqdm
 import config
+import model_dispatcher
 import data_cleaning
 from helper import plot_roc_curve_for_classes
 
@@ -16,7 +19,8 @@ train_roc_auc_list = []
 test_roc_auc_list = []
 train_classification_reports = []
 test_classification_reports = []
-def training(fold):
+
+def training(fold, model):
     df = pd.read_csv("../data/fold_data/df_folds.csv")
     df_train = df[df.kfold != fold].reset_index()
     df_valid = df[df.kfold == fold].reset_index()
@@ -41,7 +45,8 @@ def training(fold):
     xtrain = scaler.fit_transform(xtrain)
     xvalid = scaler.transform(xvalid)
 
-    model = linear_model.LogisticRegression(class_weight={0:1, 1:4})
+    
+    model = model_dispatcher.models[model]
     model.fit(xtrain, ytrain)
     train_preds_prob = model.predict_proba(xtrain)[:,1]
     test_preds_prob = model.predict_proba(xvalid)[:,1]
@@ -63,19 +68,23 @@ def training(fold):
     print(Fore.GREEN+f"Train ROC AUC: {train_roc_auc}")
     print(Fore.GREEN+f"Test ROC AUC: {test_roc_auc}")
     
-    train_classification_reports.append(train_classification_report)
-    test_classification_reports.append(test_classification_report)
-
+   
     plot_roc_curve_for_classes(model, xtrain, ytrain, [0, 1], f'Training ROC Curve for Fold {fold+1}')
     plot_roc_curve_for_classes(model, xvalid, yvalid, [0, 1], f'Testing ROC Curve for Fold {fold+1}')
 
     return train_roc_auc, test_roc_auc, model
 if __name__ == "__main__":
 
+    # Lets define argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--fold", type=int, default=5)
+    parser.add_argument("--model", type=str, default="lr", choices=["lr", "dt", "rf"])
+
+    args = parser.parse_args()
     train_roc_auc_avg = []
     test_roc_auc_avg = []
-    for fold in tqdm(range(10)):
-        train_roc_auc, test_roc_auc, model = training(fold)
+    for fold in range(args.fold):
+        train_roc_auc, test_roc_auc, model = training(fold, args.model)
         train_roc_auc_avg.append(train_roc_auc)
         test_roc_auc_avg.append(test_roc_auc)
 
