@@ -1,0 +1,261 @@
+INFO:root:### FOLD 0 ###
+INFO:root:Model Name: lr
+INFO:root:Hyperparameters: {'C': 1.0, 'class_weight': {0: 1, 1: 2}, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+INFO:root:Traning ROC Score: 0.8950915456308841
+INFO:root:Testing ROC Score: 0.8675994669712545
+INFO:root:Classification Report - Traning (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.93      0.64      0.76       920
+    churn_cus       0.73      0.95      0.82       919
+
+     accuracy                           0.80      1839
+    macro avg       0.83      0.80      0.79      1839
+ weighted avg       0.83      0.80      0.79      1839
+
+INFO:root:Classification Report - Testing (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.86      0.66      0.74       102
+    churn_cus       0.72      0.89      0.80       103
+
+     accuracy                           0.78       205
+    macro avg       0.79      0.78      0.77       205
+ weighted avg       0.79      0.78      0.77       205
+
+INFO:root:##############################
+INFO:root:### FOLD 1 ###
+INFO:root:Model Name: lr
+INFO:root:Hyperparameters: {'C': 1.0, 'class_weight': {0: 1, 1: 2}, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+INFO:root:Traning ROC Score: 0.8885023891753797
+INFO:root:Testing ROC Score: 0.9096706643822579
+INFO:root:Classification Report - Traning (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.93      0.64      0.76       920
+    churn_cus       0.73      0.95      0.82       919
+
+     accuracy                           0.80      1839
+    macro avg       0.83      0.80      0.79      1839
+ weighted avg       0.83      0.80      0.79      1839
+
+INFO:root:Classification Report - Testing (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.61      0.75       102
+    churn_cus       0.72      0.98      0.83       103
+
+     accuracy                           0.80       205
+    macro avg       0.84      0.79      0.79       205
+ weighted avg       0.84      0.80      0.79       205
+
+INFO:root:##############################
+INFO:root:### FOLD 2 ###
+INFO:root:Model Name: lr
+INFO:root:Hyperparameters: {'C': 1.0, 'class_weight': {0: 1, 1: 2}, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+INFO:root:Traning ROC Score: 0.8912251029001277
+INFO:root:Testing ROC Score: 0.8784504092899296
+INFO:root:Classification Report - Traning (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.64      0.76       919
+    churn_cus       0.73      0.94      0.82       920
+
+     accuracy                           0.79      1839
+    macro avg       0.82      0.79      0.79      1839
+ weighted avg       0.82      0.79      0.79      1839
+
+INFO:root:Classification Report - Testing (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.91      0.67      0.77       103
+    churn_cus       0.74      0.93      0.82       102
+
+     accuracy                           0.80       205
+    macro avg       0.82      0.80      0.80       205
+ weighted avg       0.82      0.80      0.80       205
+
+INFO:root:##############################
+INFO:root:### FOLD 3 ###
+INFO:root:Model Name: lr
+INFO:root:Hyperparameters: {'C': 1.0, 'class_weight': {0: 1, 1: 2}, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+INFO:root:Traning ROC Score: 0.8910240336850074
+INFO:root:Testing ROC Score: 0.8780696744717305
+INFO:root:Classification Report - Traning (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.93      0.65      0.76       919
+    churn_cus       0.73      0.95      0.82       920
+
+     accuracy                           0.80      1839
+    macro avg       0.83      0.80      0.79      1839
+ weighted avg       0.83      0.80      0.79      1839
+
+INFO:root:Classification Report - Testing (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.59      0.73       103
+    churn_cus       0.70      0.97      0.81       102
+
+     accuracy                           0.78       205
+    macro avg       0.83      0.78      0.77       205
+ weighted avg       0.83      0.78      0.77       205
+
+INFO:root:##############################
+INFO:root:### FOLD 4 ###
+INFO:root:Model Name: lr
+INFO:root:Hyperparameters: {'C': 1.0, 'class_weight': {0: 1, 1: 2}, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+INFO:root:Traning ROC Score: 0.8899527410207939
+INFO:root:Testing ROC Score: 0.9033064206074587
+INFO:root:Classification Report - Traning (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.64      0.75       920
+    churn_cus       0.72      0.94      0.82       920
+
+     accuracy                           0.79      1840
+    macro avg       0.82      0.79      0.79      1840
+ weighted avg       0.82      0.79      0.79      1840
+
+INFO:root:Classification Report - Testing (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.68      0.80       102
+    churn_cus       0.75      0.98      0.85       102
+
+     accuracy                           0.83       204
+    macro avg       0.86      0.83      0.82       204
+ weighted avg       0.86      0.83      0.82       204
+
+INFO:root:##############################
+INFO:root:### FOLD 5 ###
+INFO:root:Model Name: lr
+INFO:root:Hyperparameters: {'C': 1.0, 'class_weight': {0: 1, 1: 2}, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+INFO:root:Traning ROC Score: 0.8905446597353497
+INFO:root:Testing ROC Score: 0.9030180699730872
+INFO:root:Classification Report - Traning (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.63      0.75       920
+    churn_cus       0.72      0.94      0.82       920
+
+     accuracy                           0.79      1840
+    macro avg       0.82      0.79      0.78      1840
+ weighted avg       0.82      0.79      0.78      1840
+
+INFO:root:Classification Report - Testing (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.91      0.67      0.77       102
+    churn_cus       0.74      0.93      0.82       102
+
+     accuracy                           0.80       204
+    macro avg       0.82      0.80      0.80       204
+ weighted avg       0.82      0.80      0.80       204
+
+INFO:root:##############################
+INFO:root:### FOLD 6 ###
+INFO:root:Model Name: lr
+INFO:root:Hyperparameters: {'C': 1.0, 'class_weight': {0: 1, 1: 2}, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+INFO:root:Traning ROC Score: 0.8927752835538753
+INFO:root:Testing ROC Score: 0.8737985390234525
+INFO:root:Classification Report - Traning (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.64      0.76       920
+    churn_cus       0.73      0.95      0.82       920
+
+     accuracy                           0.79      1840
+    macro avg       0.82      0.79      0.79      1840
+ weighted avg       0.82      0.79      0.79      1840
+
+INFO:root:Classification Report - Testing (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.91      0.69      0.78       102
+    churn_cus       0.75      0.93      0.83       102
+
+     accuracy                           0.81       204
+    macro avg       0.83      0.81      0.81       204
+ weighted avg       0.83      0.81      0.81       204
+
+INFO:root:##############################
+INFO:root:### FOLD 7 ###
+INFO:root:Model Name: lr
+INFO:root:Hyperparameters: {'C': 1.0, 'class_weight': {0: 1, 1: 2}, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+INFO:root:Traning ROC Score: 0.8949503780718335
+INFO:root:Testing ROC Score: 0.8617839292579778
+INFO:root:Classification Report - Traning (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.66      0.77       920
+    churn_cus       0.73      0.95      0.83       920
+
+     accuracy                           0.80      1840
+    macro avg       0.83      0.80      0.80      1840
+ weighted avg       0.83      0.80      0.80      1840
+
+INFO:root:Classification Report - Testing (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.85      0.54      0.66       102
+    churn_cus       0.66      0.90      0.76       102
+
+     accuracy                           0.72       204
+    macro avg       0.75      0.72      0.71       204
+ weighted avg       0.75      0.72      0.71       204
+
+INFO:root:##############################
+INFO:root:### FOLD 8 ###
+INFO:root:Model Name: lr
+INFO:root:Hyperparameters: {'C': 1.0, 'class_weight': {0: 1, 1: 2}, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+INFO:root:Traning ROC Score: 0.893781899810964
+INFO:root:Testing ROC Score: 0.8880238369857747
+INFO:root:Classification Report - Traning (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.65      0.76       920
+    churn_cus       0.73      0.95      0.82       920
+
+     accuracy                           0.80      1840
+    macro avg       0.83      0.80      0.79      1840
+ weighted avg       0.83      0.80      0.79      1840
+
+INFO:root:Classification Report - Testing (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.88      0.64      0.74       102
+    churn_cus       0.72      0.91      0.80       102
+
+     accuracy                           0.77       204
+    macro avg       0.80      0.77      0.77       204
+ weighted avg       0.80      0.77      0.77       204
+
+INFO:root:##############################
+INFO:root:### FOLD 9 ###
+INFO:root:Model Name: lr
+INFO:root:Hyperparameters: {'C': 1.0, 'class_weight': {0: 1, 1: 2}, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+INFO:root:Traning ROC Score: 0.8906120037807184
+INFO:root:Testing ROC Score: 0.8906189926951171
+INFO:root:Classification Report - Traning (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.64      0.76       920
+    churn_cus       0.72      0.95      0.82       920
+
+     accuracy                           0.79      1840
+    macro avg       0.82      0.79      0.79      1840
+ weighted avg       0.82      0.79      0.79      1840
+
+INFO:root:Classification Report - Testing (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.94      0.67      0.78       102
+    churn_cus       0.74      0.96      0.84       102
+
+     accuracy                           0.81       204
+    macro avg       0.84      0.81      0.81       204
+ weighted avg       0.84      0.81      0.81       204
+
+INFO:root:##############################
+INFO:root:Overall ROC score on all 10 FOLDs in TRAINING SET=0.8918460037364934, TESTING SET=0.8854340003658041
