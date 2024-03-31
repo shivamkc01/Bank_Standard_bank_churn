@@ -25,27 +25,7 @@ def param_search(X_train, X_test, y_train, y_test):
     grid_search.fit(X_train, y_train)
 
     # Extract CV results
-    cv_results = grid_search.cv_results_
-
-    # Plot the graph
-    plt.figure(figsize=(10, 6))
-    for i in range(5):  # Assuming 5 folds
-        train_mean = cv_results[f"split{i}_train_score"].mean()
-        test_mean = cv_results[f"split{i}_test_score"].mean()
-        plt.plot([i+1], [train_mean], 'bo')  # Training score
-        plt.plot([i+1], [test_mean], 'ro')  # Testing score
-
-    # Plotting mean training and testing scores across folds
-    plt.plot(range(1, 6), cv_results['mean_train_score'], marker='o', label='Mean Training Score', color='blue')
-    plt.plot(range(1, 6), cv_results['mean_test_score'], marker='o', label='Mean Testing Score', color='red')
-
-    plt.xlabel('Fold')
-    plt.ylabel('ROC AUC Score')
-    plt.title('ROC AUC Scores across Folds')
-    plt.legend()
-    plt.grid(True)
-    plt.show()
-
+    cv_results = grid_search.cv_results_ 
 
 if __name__ == "__main__":
     df = pd.read_csv(config.SMOTE_DATA_FILES)
@@ -57,3 +37,4 @@ if __name__ == "__main__":
 
     # Perform grid search and plot CV results
     param_search(X_train, X_test, y_train, y_test)
+    
