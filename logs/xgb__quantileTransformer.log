@@ -1,0 +1,2088 @@
+INFO:root:### FOLD 0 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': None, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': None, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9640205596801827
+INFO:root:Classification Report - Traning (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       919
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.91      0.89      0.90       102
+    churn_cus       0.90      0.91      0.90       103
+
+     accuracy                           0.90       205
+    macro avg       0.90      0.90      0.90       205
+ weighted avg       0.90      0.90      0.90       205
+
+INFO:root:##############################
+INFO:root:### FOLD 1 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': None, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': None, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.976108890158005
+INFO:root:Classification Report - Traning (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       919
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.88      0.91       102
+    churn_cus       0.89      0.95      0.92       103
+
+     accuracy                           0.92       205
+    macro avg       0.92      0.92      0.92       205
+ weighted avg       0.92      0.92      0.92       205
+
+INFO:root:##############################
+INFO:root:### FOLD 2 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': None, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': None, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.963068722634685
+INFO:root:Classification Report - Traning (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       919
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.91      0.89       103
+    churn_cus       0.91      0.86      0.88       102
+
+     accuracy                           0.89       205
+    macro avg       0.89      0.89      0.89       205
+ weighted avg       0.89      0.89      0.89       205
+
+INFO:root:##############################
+INFO:root:### FOLD 3 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': None, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': None, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9696363982486198
+INFO:root:Classification Report - Traning (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       919
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.93      0.86      0.89       103
+    churn_cus       0.87      0.93      0.90       102
+
+     accuracy                           0.90       205
+    macro avg       0.90      0.90      0.90       205
+ weighted avg       0.90      0.90      0.90       205
+
+INFO:root:##############################
+INFO:root:### FOLD 4 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': None, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': None, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9739523260284506
+INFO:root:Classification Report - Traning (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.96      0.86      0.91       102
+    churn_cus       0.88      0.96      0.92       102
+
+     accuracy                           0.91       204
+    macro avg       0.92      0.91      0.91       204
+ weighted avg       0.92      0.91      0.91       204
+
+INFO:root:##############################
+INFO:root:### FOLD 5 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': None, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': None, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9669357939254133
+INFO:root:Classification Report - Traning (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.91      0.92       102
+    churn_cus       0.91      0.92      0.92       102
+
+     accuracy                           0.92       204
+    macro avg       0.92      0.92      0.92       204
+ weighted avg       0.92      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:### FOLD 6 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': None, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': None, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.964725105728566
+INFO:root:Classification Report - Traning (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.88      0.90      0.89       102
+    churn_cus       0.90      0.88      0.89       102
+
+     accuracy                           0.89       204
+    macro avg       0.89      0.89      0.89       204
+ weighted avg       0.89      0.89      0.89       204
+
+INFO:root:##############################
+INFO:root:### FOLD 7 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': None, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': None, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9681853133410228
+INFO:root:Classification Report - Traning (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.96      0.87      0.91       102
+    churn_cus       0.88      0.96      0.92       102
+
+     accuracy                           0.92       204
+    macro avg       0.92      0.92      0.92       204
+ weighted avg       0.92      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:### FOLD 8 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': None, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': None, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.951845444059977
+INFO:root:Classification Report - Traning (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.89      0.88       102
+    churn_cus       0.89      0.86      0.88       102
+
+     accuracy                           0.88       204
+    macro avg       0.88      0.88      0.88       204
+ weighted avg       0.88      0.88      0.88       204
+
+INFO:root:##############################
+INFO:root:### FOLD 9 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': None, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': None, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': None, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': None, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'sampling_method': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9811610918877355
+INFO:root:Classification Report - Traning (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.99      0.84      0.91       102
+    churn_cus       0.86      0.99      0.92       102
+
+     accuracy                           0.92       204
+    macro avg       0.93      0.92      0.92       204
+ weighted avg       0.93      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:Overall ROC score on all 10 FOLDs in TRAINING SET=1.0, TESTING SET=0.9679639645692657
+INFO:root:### FOLD 0 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9554540262707025
+INFO:root:Classification Report - Traning (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       919
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.93      0.88      0.90       102
+    churn_cus       0.89      0.93      0.91       103
+
+     accuracy                           0.91       205
+    macro avg       0.91      0.91      0.91       205
+ weighted avg       0.91      0.91      0.91       205
+
+INFO:root:##############################
+INFO:root:### FOLD 1 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9881020369312773
+INFO:root:Classification Report - Traning (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       919
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.90      0.93       102
+    churn_cus       0.91      0.97      0.94       103
+
+     accuracy                           0.94       205
+    macro avg       0.94      0.94      0.94       205
+ weighted avg       0.94      0.94      0.94       205
+
+INFO:root:##############################
+INFO:root:### FOLD 2 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9612602322482391
+INFO:root:Classification Report - Traning (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       919
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.89      0.90      0.90       103
+    churn_cus       0.90      0.89      0.90       102
+
+     accuracy                           0.90       205
+    macro avg       0.90      0.90      0.90       205
+ weighted avg       0.90      0.90      0.90       205
+
+INFO:root:##############################
+INFO:root:### FOLD 3 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9776318294308015
+INFO:root:Classification Report - Traning (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       919
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.94      0.89      0.92       103
+    churn_cus       0.90      0.94      0.92       102
+
+     accuracy                           0.92       205
+    macro avg       0.92      0.92      0.92       205
+ weighted avg       0.92      0.92      0.92       205
+
+INFO:root:##############################
+INFO:root:### FOLD 4 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9835640138408305
+INFO:root:Classification Report - Traning (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.96      0.86      0.91       102
+    churn_cus       0.88      0.96      0.92       102
+
+     accuracy                           0.91       204
+    macro avg       0.92      0.91      0.91       204
+ weighted avg       0.92      0.91      0.91       204
+
+INFO:root:##############################
+INFO:root:### FOLD 5 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9669357939254133
+INFO:root:Classification Report - Traning (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.93      0.90      0.92       102
+    churn_cus       0.90      0.93      0.92       102
+
+     accuracy                           0.92       204
+    macro avg       0.92      0.92      0.92       204
+ weighted avg       0.92      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:### FOLD 6 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9697231833910034
+INFO:root:Classification Report - Traning (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.90      0.92      0.91       102
+    churn_cus       0.92      0.90      0.91       102
+
+     accuracy                           0.91       204
+    macro avg       0.91      0.91      0.91       204
+ weighted avg       0.91      0.91      0.91       204
+
+INFO:root:##############################
+INFO:root:### FOLD 7 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.960880430603614
+INFO:root:Classification Report - Traning (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.94      0.80      0.87       102
+    churn_cus       0.83      0.95      0.89       102
+
+     accuracy                           0.88       204
+    macro avg       0.89      0.88      0.88       204
+ weighted avg       0.89      0.88      0.88       204
+
+INFO:root:##############################
+INFO:root:### FOLD 8 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9512687427912342
+INFO:root:Classification Report - Traning (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.85      0.86       102
+    churn_cus       0.86      0.87      0.86       102
+
+     accuracy                           0.86       204
+    macro avg       0.86      0.86      0.86       204
+ weighted avg       0.86      0.86      0.86       204
+
+INFO:root:##############################
+INFO:root:### FOLD 9 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9858708189158016
+INFO:root:Classification Report - Traning (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.87      0.92       102
+    churn_cus       0.88      0.97      0.93       102
+
+     accuracy                           0.92       204
+    macro avg       0.93      0.92      0.92       204
+ weighted avg       0.93      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:Overall ROC score on all 10 FOLDs in TRAINING SET=1.0, TESTING SET=0.9700691108348917
+INFO:root:### FOLD 0 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9554540262707025
+INFO:root:Classification Report - Traning (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       919
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.93      0.88      0.90       102
+    churn_cus       0.89      0.93      0.91       103
+
+     accuracy                           0.91       205
+    macro avg       0.91      0.91      0.91       205
+ weighted avg       0.91      0.91      0.91       205
+
+INFO:root:##############################
+INFO:root:### FOLD 1 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9881020369312773
+INFO:root:Classification Report - Traning (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       919
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.90      0.93       102
+    churn_cus       0.91      0.97      0.94       103
+
+     accuracy                           0.94       205
+    macro avg       0.94      0.94      0.94       205
+ weighted avg       0.94      0.94      0.94       205
+
+INFO:root:##############################
+INFO:root:### FOLD 2 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9612602322482391
+INFO:root:Classification Report - Traning (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       919
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.89      0.90      0.90       103
+    churn_cus       0.90      0.89      0.90       102
+
+     accuracy                           0.90       205
+    macro avg       0.90      0.90      0.90       205
+ weighted avg       0.90      0.90      0.90       205
+
+INFO:root:##############################
+INFO:root:### FOLD 3 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9776318294308015
+INFO:root:Classification Report - Traning (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       919
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.94      0.89      0.92       103
+    churn_cus       0.90      0.94      0.92       102
+
+     accuracy                           0.92       205
+    macro avg       0.92      0.92      0.92       205
+ weighted avg       0.92      0.92      0.92       205
+
+INFO:root:##############################
+INFO:root:### FOLD 4 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9835640138408305
+INFO:root:Classification Report - Traning (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.96      0.86      0.91       102
+    churn_cus       0.88      0.96      0.92       102
+
+     accuracy                           0.91       204
+    macro avg       0.92      0.91      0.91       204
+ weighted avg       0.92      0.91      0.91       204
+
+INFO:root:##############################
+INFO:root:### FOLD 5 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9669357939254133
+INFO:root:Classification Report - Traning (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.93      0.90      0.92       102
+    churn_cus       0.90      0.93      0.92       102
+
+     accuracy                           0.92       204
+    macro avg       0.92      0.92      0.92       204
+ weighted avg       0.92      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:### FOLD 6 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9697231833910034
+INFO:root:Classification Report - Traning (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.90      0.92      0.91       102
+    churn_cus       0.92      0.90      0.91       102
+
+     accuracy                           0.91       204
+    macro avg       0.91      0.91      0.91       204
+ weighted avg       0.91      0.91      0.91       204
+
+INFO:root:##############################
+INFO:root:### FOLD 7 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.960880430603614
+INFO:root:Classification Report - Traning (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.94      0.80      0.87       102
+    churn_cus       0.83      0.95      0.89       102
+
+     accuracy                           0.88       204
+    macro avg       0.89      0.88      0.88       204
+ weighted avg       0.89      0.88      0.88       204
+
+INFO:root:##############################
+INFO:root:### FOLD 8 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9512687427912342
+INFO:root:Classification Report - Traning (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.85      0.86       102
+    churn_cus       0.86      0.87      0.86       102
+
+     accuracy                           0.86       204
+    macro avg       0.86      0.86      0.86       204
+ weighted avg       0.86      0.86      0.86       204
+
+INFO:root:##############################
+INFO:root:### FOLD 9 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 7, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9858708189158016
+INFO:root:Classification Report - Traning (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.87      0.92       102
+    churn_cus       0.88      0.97      0.93       102
+
+     accuracy                           0.92       204
+    macro avg       0.93      0.92      0.92       204
+ weighted avg       0.93      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:Overall ROC score on all 10 FOLDs in TRAINING SET=1.0, TESTING SET=0.9700691108348917
+INFO:root:### FOLD 0 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9566914144298496
+INFO:root:Classification Report - Traning (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       919
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.85      0.88       102
+    churn_cus       0.86      0.92      0.89       103
+
+     accuracy                           0.89       205
+    macro avg       0.89      0.89      0.89       205
+ weighted avg       0.89      0.89      0.89       205
+
+INFO:root:##############################
+INFO:root:### FOLD 1 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9897201599086236
+INFO:root:Classification Report - Traning (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       919
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.98      0.90      0.94       102
+    churn_cus       0.91      0.98      0.94       103
+
+     accuracy                           0.94       205
+    macro avg       0.94      0.94      0.94       205
+ weighted avg       0.94      0.94      0.94       205
+
+INFO:root:##############################
+INFO:root:### FOLD 2 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9633542737483343
+INFO:root:Classification Report - Traning (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       919
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.88      0.86      0.87       103
+    churn_cus       0.87      0.88      0.87       102
+
+     accuracy                           0.87       205
+    macro avg       0.87      0.87      0.87       205
+ weighted avg       0.87      0.87      0.87       205
+
+INFO:root:##############################
+INFO:root:### FOLD 3 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9771559109080525
+INFO:root:Classification Report - Traning (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       919
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.94      0.88      0.91       103
+    churn_cus       0.89      0.94      0.91       102
+
+     accuracy                           0.91       205
+    macro avg       0.91      0.91      0.91       205
+ weighted avg       0.91      0.91      0.91       205
+
+INFO:root:##############################
+INFO:root:### FOLD 4 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9779892349096501
+INFO:root:Classification Report - Traning (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.88      0.91       102
+    churn_cus       0.89      0.95      0.92       102
+
+     accuracy                           0.92       204
+    macro avg       0.92      0.92      0.92       204
+ weighted avg       0.92      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:### FOLD 5 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.971357170319108
+INFO:root:Classification Report - Traning (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.91      0.92       102
+    churn_cus       0.91      0.92      0.92       102
+
+     accuracy                           0.92       204
+    macro avg       0.92      0.92      0.92       204
+ weighted avg       0.92      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:### FOLD 6 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9707804690503653
+INFO:root:Classification Report - Traning (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.93      0.91      0.92       102
+    churn_cus       0.91      0.93      0.92       102
+
+     accuracy                           0.92       204
+    macro avg       0.92      0.92      0.92       204
+ weighted avg       0.92      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:### FOLD 7 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9703960015378701
+INFO:root:Classification Report - Traning (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.96      0.83      0.89       102
+    churn_cus       0.85      0.96      0.90       102
+
+     accuracy                           0.90       204
+    macro avg       0.90      0.90      0.90       204
+ weighted avg       0.90      0.90      0.90       204
+
+INFO:root:##############################
+INFO:root:### FOLD 8 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9576124567474048
+INFO:root:Classification Report - Traning (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.88      0.88       102
+    churn_cus       0.88      0.87      0.88       102
+
+     accuracy                           0.88       204
+    macro avg       0.88      0.88      0.88       204
+ weighted avg       0.88      0.88      0.88       204
+
+INFO:root:##############################
+INFO:root:### FOLD 9 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9867358708189158
+INFO:root:Classification Report - Traning (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.86      0.91       102
+    churn_cus       0.88      0.97      0.92       102
+
+     accuracy                           0.92       204
+    macro avg       0.92      0.92      0.92       204
+ weighted avg       0.92      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:Overall ROC score on all 10 FOLDs in TRAINING SET=1.0, TESTING SET=0.9721792962378174
+INFO:root:### FOLD 0 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9592613744526937
+INFO:root:Classification Report - Traning (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       919
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.93      0.86      0.89       102
+    churn_cus       0.87      0.93      0.90       103
+
+     accuracy                           0.90       205
+    macro avg       0.90      0.90      0.90       205
+ weighted avg       0.90      0.90      0.90       205
+
+INFO:root:##############################
+INFO:root:### FOLD 1 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9885779554540263
+INFO:root:Classification Report - Traning (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       919
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.98      0.89      0.93       102
+    churn_cus       0.90      0.98      0.94       103
+
+     accuracy                           0.94       205
+    macro avg       0.94      0.94      0.94       205
+ weighted avg       0.94      0.94      0.94       205
+
+INFO:root:##############################
+INFO:root:### FOLD 2 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9640205596801827
+INFO:root:Classification Report - Traning (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       919
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.88      0.87      0.88       103
+    churn_cus       0.87      0.88      0.88       102
+
+     accuracy                           0.88       205
+    macro avg       0.88      0.88      0.88       205
+ weighted avg       0.88      0.88      0.88       205
+
+INFO:root:##############################
+INFO:root:### FOLD 3 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9745859508852085
+INFO:root:Classification Report - Traning (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       919
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1839
+    macro avg       1.00      1.00      1.00      1839
+ weighted avg       1.00      1.00      1.00      1839
+
+INFO:root:Classification Report - Testing (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.94      0.87      0.90       103
+    churn_cus       0.88      0.94      0.91       102
+
+     accuracy                           0.91       205
+    macro avg       0.91      0.91      0.91       205
+ weighted avg       0.91      0.91      0.91       205
+
+INFO:root:##############################
+INFO:root:### FOLD 4 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9768358323721645
+INFO:root:Classification Report - Traning (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.86      0.90       102
+    churn_cus       0.87      0.95      0.91       102
+
+     accuracy                           0.91       204
+    macro avg       0.91      0.91      0.91       204
+ weighted avg       0.91      0.91      0.91       204
+
+INFO:root:##############################
+INFO:root:### FOLD 5 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9697231833910035
+INFO:root:Classification Report - Traning (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.91      0.92       102
+    churn_cus       0.91      0.92      0.92       102
+
+     accuracy                           0.92       204
+    macro avg       0.92      0.92      0.92       204
+ weighted avg       0.92      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:### FOLD 6 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9697231833910035
+INFO:root:Classification Report - Traning (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.90      0.91       102
+    churn_cus       0.90      0.92      0.91       102
+
+     accuracy                           0.91       204
+    macro avg       0.91      0.91      0.91       204
+ weighted avg       0.91      0.91      0.91       204
+
+INFO:root:##############################
+INFO:root:### FOLD 7 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9713571703191081
+INFO:root:Classification Report - Traning (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.96      0.88      0.92       102
+    churn_cus       0.89      0.96      0.92       102
+
+     accuracy                           0.92       204
+    macro avg       0.92      0.92      0.92       204
+ weighted avg       0.92      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:### FOLD 8 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9595347943098808
+INFO:root:Classification Report - Traning (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.88      0.88       102
+    churn_cus       0.88      0.87      0.88       102
+
+     accuracy                           0.88       204
+    macro avg       0.88      0.88      0.88       204
+ weighted avg       0.88      0.88      0.88       204
+
+INFO:root:##############################
+INFO:root:### FOLD 9 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 100, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 1.0
+INFO:root:Testing ROC Score: 0.9876970396001538
+INFO:root:Classification Report - Traning (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       1.00      1.00      1.00       920
+    churn_cus       1.00      1.00      1.00       920
+
+     accuracy                           1.00      1840
+    macro avg       1.00      1.00      1.00      1840
+ weighted avg       1.00      1.00      1.00      1840
+
+INFO:root:Classification Report - Testing (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.86      0.91       102
+    churn_cus       0.88      0.97      0.92       102
+
+     accuracy                           0.92       204
+    macro avg       0.92      0.92      0.92       204
+ weighted avg       0.92      0.92      0.92       204
+
+INFO:root:##############################
+INFO:root:Overall ROC score on all 10 FOLDs in TRAINING SET=1.0, TESTING SET=0.9721317043855425
+INFO:root:### FOLD 0 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9849552916686379
+INFO:root:Testing ROC Score: 0.9458404721111745
+INFO:root:Classification Report - Traning (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.91      0.93       920
+    churn_cus       0.91      0.95      0.93       919
+
+     accuracy                           0.93      1839
+    macro avg       0.93      0.93      0.93      1839
+ weighted avg       0.93      0.93      0.93      1839
+
+INFO:root:Classification Report - Testing (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.89      0.86      0.88       102
+    churn_cus       0.87      0.89      0.88       103
+
+     accuracy                           0.88       205
+    macro avg       0.88      0.88      0.88       205
+ weighted avg       0.88      0.88      0.88       205
+
+INFO:root:##############################
+INFO:root:### FOLD 1 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9837630694989827
+INFO:root:Testing ROC Score: 0.9789644012944985
+INFO:root:Classification Report - Traning (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.90      0.92       920
+    churn_cus       0.91      0.95      0.93       919
+
+     accuracy                           0.93      1839
+    macro avg       0.93      0.93      0.93      1839
+ weighted avg       0.93      0.93      0.93      1839
+
+INFO:root:Classification Report - Testing (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.98      0.84      0.91       102
+    churn_cus       0.86      0.98      0.92       103
+
+     accuracy                           0.91       205
+    macro avg       0.92      0.91      0.91       205
+ weighted avg       0.92      0.91      0.91       205
+
+INFO:root:##############################
+INFO:root:### FOLD 2 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9849174433457917
+INFO:root:Testing ROC Score: 0.9509803921568627
+INFO:root:Classification Report - Traning (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.91      0.93       919
+    churn_cus       0.91      0.95      0.93       920
+
+     accuracy                           0.93      1839
+    macro avg       0.93      0.93      0.93      1839
+ weighted avg       0.93      0.93      0.93      1839
+
+INFO:root:Classification Report - Testing (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.88      0.89      0.89       103
+    churn_cus       0.89      0.88      0.89       102
+
+     accuracy                           0.89       205
+    macro avg       0.89      0.89      0.89       205
+ weighted avg       0.89      0.89      0.89       205
+
+INFO:root:##############################
+INFO:root:### FOLD 3 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9843781047452335
+INFO:root:Testing ROC Score: 0.970873786407767
+INFO:root:Classification Report - Traning (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.91      0.93       919
+    churn_cus       0.91      0.95      0.93       920
+
+     accuracy                           0.93      1839
+    macro avg       0.93      0.93      0.93      1839
+ weighted avg       0.93      0.93      0.93      1839
+
+INFO:root:Classification Report - Testing (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.86      0.89       103
+    churn_cus       0.87      0.92      0.90       102
+
+     accuracy                           0.89       205
+    macro avg       0.89      0.89      0.89       205
+ weighted avg       0.89      0.89      0.89       205
+
+INFO:root:##############################
+INFO:root:### FOLD 4 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9846313799621929
+INFO:root:Testing ROC Score: 0.9647251057285658
+INFO:root:Classification Report - Traning (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.91      0.93       920
+    churn_cus       0.91      0.95      0.93       920
+
+     accuracy                           0.93      1840
+    macro avg       0.93      0.93      0.93      1840
+ weighted avg       0.93      0.93      0.93      1840
+
+INFO:root:Classification Report - Testing (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.82      0.88       102
+    churn_cus       0.84      0.96      0.90       102
+
+     accuracy                           0.89       204
+    macro avg       0.90      0.89      0.89       204
+ weighted avg       0.90      0.89      0.89       204
+
+INFO:root:##############################
+INFO:root:### FOLD 5 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9846727315689981
+INFO:root:Testing ROC Score: 0.96280276816609
+INFO:root:Classification Report - Traning (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.92      0.93       920
+    churn_cus       0.92      0.95      0.93       920
+
+     accuracy                           0.93      1840
+    macro avg       0.93      0.93      0.93      1840
+ weighted avg       0.93      0.93      0.93      1840
+
+INFO:root:Classification Report - Testing (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.88      0.87      0.88       102
+    churn_cus       0.87      0.88      0.88       102
+
+     accuracy                           0.88       204
+    macro avg       0.88      0.88      0.88       204
+ weighted avg       0.88      0.88      0.88       204
+
+INFO:root:##############################
+INFO:root:### FOLD 6 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9854158790170131
+INFO:root:Testing ROC Score: 0.9528066128412149
+INFO:root:Classification Report - Traning (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.91      0.93       920
+    churn_cus       0.91      0.95      0.93       920
+
+     accuracy                           0.93      1840
+    macro avg       0.93      0.93      0.93      1840
+ weighted avg       0.93      0.93      0.93      1840
+
+INFO:root:Classification Report - Testing (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.87      0.87       102
+    churn_cus       0.87      0.87      0.87       102
+
+     accuracy                           0.87       204
+    macro avg       0.87      0.87      0.87       204
+ weighted avg       0.87      0.87      0.87       204
+
+INFO:root:##############################
+INFO:root:### FOLD 7 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9856911625708884
+INFO:root:Testing ROC Score: 0.9296424452133795
+INFO:root:Classification Report - Traning (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.91      0.93       920
+    churn_cus       0.91      0.95      0.93       920
+
+     accuracy                           0.93      1840
+    macro avg       0.93      0.93      0.93      1840
+ weighted avg       0.93      0.93      0.93      1840
+
+INFO:root:Classification Report - Testing (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.86      0.79      0.83       102
+    churn_cus       0.81      0.87      0.84       102
+
+     accuracy                           0.83       204
+    macro avg       0.84      0.83      0.83       204
+ weighted avg       0.84      0.83      0.83       204
+
+INFO:root:##############################
+INFO:root:### FOLD 8 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9867639413988657
+INFO:root:Testing ROC Score: 0.9383890811226452
+INFO:root:Classification Report - Traning (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.96      0.91      0.93       920
+    churn_cus       0.92      0.96      0.94       920
+
+     accuracy                           0.94      1840
+    macro avg       0.94      0.94      0.94      1840
+ weighted avg       0.94      0.94      0.94      1840
+
+INFO:root:Classification Report - Testing (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.86      0.85      0.86       102
+    churn_cus       0.85      0.86      0.86       102
+
+     accuracy                           0.86       204
+    macro avg       0.86      0.86      0.86       204
+ weighted avg       0.86      0.86      0.86       204
+
+INFO:root:##############################
+INFO:root:### FOLD 9 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9845663988657845
+INFO:root:Testing ROC Score: 0.9619377162629759
+INFO:root:Classification Report - Traning (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.91      0.93       920
+    churn_cus       0.91      0.95      0.93       920
+
+     accuracy                           0.93      1840
+    macro avg       0.93      0.93      0.93      1840
+ weighted avg       0.93      0.93      0.93      1840
+
+INFO:root:Classification Report - Testing (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.96      0.86      0.91       102
+    churn_cus       0.88      0.96      0.92       102
+
+     accuracy                           0.91       204
+    macro avg       0.92      0.91      0.91       204
+ weighted avg       0.92      0.91      0.91       204
+
+INFO:root:##############################
+INFO:root:Overall ROC score on all 10 FOLDs in TRAINING SET=0.9849755402642388, TESTING SET=0.9556962781305174
+INFO:root:### FOLD 0 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9598476605005442
+INFO:root:Testing ROC Score: 0.9257567104511707
+INFO:root:Classification Report - Traning (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.90      0.85      0.87       920
+    churn_cus       0.86      0.91      0.88       919
+
+     accuracy                           0.88      1839
+    macro avg       0.88      0.88      0.88      1839
+ weighted avg       0.88      0.88      0.88      1839
+
+INFO:root:Classification Report - Testing (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.83      0.78      0.81       102
+    churn_cus       0.80      0.84      0.82       103
+
+     accuracy                           0.81       205
+    macro avg       0.82      0.81      0.81       205
+ weighted avg       0.82      0.81      0.81       205
+
+INFO:root:##############################
+INFO:root:### FOLD 1 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9562964233334911
+INFO:root:Testing ROC Score: 0.9689701123167713
+INFO:root:Classification Report - Traning (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.90      0.84      0.87       920
+    churn_cus       0.85      0.91      0.88       919
+
+     accuracy                           0.87      1839
+    macro avg       0.88      0.87      0.87      1839
+ weighted avg       0.88      0.87      0.87      1839
+
+INFO:root:Classification Report - Testing (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.96      0.79      0.87       102
+    churn_cus       0.83      0.97      0.89       103
+
+     accuracy                           0.88       205
+    macro avg       0.90      0.88      0.88       205
+ weighted avg       0.90      0.88      0.88       205
+
+INFO:root:##############################
+INFO:root:### FOLD 2 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9592338080143823
+INFO:root:Testing ROC Score: 0.9351798972015991
+INFO:root:Classification Report - Traning (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.90      0.84      0.87       919
+    churn_cus       0.85      0.91      0.88       920
+
+     accuracy                           0.87      1839
+    macro avg       0.88      0.87      0.87      1839
+ weighted avg       0.88      0.87      0.87      1839
+
+INFO:root:Classification Report - Testing (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.85      0.83      0.84       103
+    churn_cus       0.83      0.85      0.84       102
+
+     accuracy                           0.84       205
+    macro avg       0.84      0.84      0.84       205
+ weighted avg       0.84      0.84      0.84       205
+
+INFO:root:##############################
+INFO:root:### FOLD 3 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9583402327671855
+INFO:root:Testing ROC Score: 0.9603083952027414
+INFO:root:Classification Report - Traning (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.90      0.85      0.87       919
+    churn_cus       0.86      0.90      0.88       920
+
+     accuracy                           0.88      1839
+    macro avg       0.88      0.88      0.88      1839
+ weighted avg       0.88      0.88      0.88      1839
+
+INFO:root:Classification Report - Testing (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.82      0.88       103
+    churn_cus       0.84      0.96      0.89       102
+
+     accuracy                           0.89       205
+    macro avg       0.90      0.89      0.89       205
+ weighted avg       0.90      0.89      0.89       205
+
+INFO:root:##############################
+INFO:root:### FOLD 4 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9569399810964083
+INFO:root:Testing ROC Score: 0.9529988465974625
+INFO:root:Classification Report - Traning (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.90      0.84      0.87       920
+    churn_cus       0.85      0.91      0.88       920
+
+     accuracy                           0.87      1840
+    macro avg       0.87      0.87      0.87      1840
+ weighted avg       0.87      0.87      0.87      1840
+
+INFO:root:Classification Report - Testing (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.81      0.86       102
+    churn_cus       0.83      0.93      0.88       102
+
+     accuracy                           0.87       204
+    macro avg       0.88      0.87      0.87       204
+ weighted avg       0.88      0.87      0.87       204
+
+INFO:root:##############################
+INFO:root:### FOLD 5 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9596396502835538
+INFO:root:Testing ROC Score: 0.9517493271818531
+INFO:root:Classification Report - Traning (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.90      0.85      0.88       920
+    churn_cus       0.86      0.91      0.88       920
+
+     accuracy                           0.88      1840
+    macro avg       0.88      0.88      0.88      1840
+ weighted avg       0.88      0.88      0.88      1840
+
+INFO:root:Classification Report - Testing (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.86      0.83      0.85       102
+    churn_cus       0.84      0.86      0.85       102
+
+     accuracy                           0.85       204
+    macro avg       0.85      0.85      0.85       204
+ weighted avg       0.85      0.85      0.85       204
+
+INFO:root:##############################
+INFO:root:### FOLD 6 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9580275283553875
+INFO:root:Testing ROC Score: 0.9344963475586313
+INFO:root:Classification Report - Traning (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.90      0.85      0.87       920
+    churn_cus       0.86      0.91      0.88       920
+
+     accuracy                           0.88      1840
+    macro avg       0.88      0.88      0.88      1840
+ weighted avg       0.88      0.88      0.88      1840
+
+INFO:root:Classification Report - Testing (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.83      0.80      0.82       102
+    churn_cus       0.81      0.83      0.82       102
+
+     accuracy                           0.82       204
+    macro avg       0.82      0.82      0.82       204
+ weighted avg       0.82      0.82      0.82       204
+
+INFO:root:##############################
+INFO:root:### FOLD 7 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9614372637051039
+INFO:root:Testing ROC Score: 0.908881199538639
+INFO:root:Classification Report - Traning (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.91      0.85      0.88       920
+    churn_cus       0.86      0.92      0.89       920
+
+     accuracy                           0.88      1840
+    macro avg       0.88      0.88      0.88      1840
+ weighted avg       0.88      0.88      0.88      1840
+
+INFO:root:Classification Report - Testing (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.84      0.75      0.79       102
+    churn_cus       0.78      0.85      0.81       102
+
+     accuracy                           0.80       204
+    macro avg       0.81      0.80      0.80       204
+ weighted avg       0.81      0.80      0.80       204
+
+INFO:root:##############################
+INFO:root:### FOLD 8 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9614124527410208
+INFO:root:Testing ROC Score: 0.9261822376009227
+INFO:root:Classification Report - Traning (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.91      0.84      0.87       920
+    churn_cus       0.85      0.92      0.88       920
+
+     accuracy                           0.88      1840
+    macro avg       0.88      0.88      0.88      1840
+ weighted avg       0.88      0.88      0.88      1840
+
+INFO:root:Classification Report - Testing (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.81      0.86      0.84       102
+    churn_cus       0.85      0.80      0.83       102
+
+     accuracy                           0.83       204
+    macro avg       0.83      0.83      0.83       204
+ weighted avg       0.83      0.83      0.83       204
+
+INFO:root:##############################
+INFO:root:### FOLD 9 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 2, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9578030482041591
+INFO:root:Testing ROC Score: 0.9424740484429066
+INFO:root:Classification Report - Traning (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.91      0.84      0.87       920
+    churn_cus       0.85      0.91      0.88       920
+
+     accuracy                           0.88      1840
+    macro avg       0.88      0.88      0.88      1840
+ weighted avg       0.88      0.88      0.88      1840
+
+INFO:root:Classification Report - Testing (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.91      0.83      0.87       102
+    churn_cus       0.85      0.92      0.88       102
+
+     accuracy                           0.88       204
+    macro avg       0.88      0.88      0.88       204
+ weighted avg       0.88      0.88      0.88       204
+
+INFO:root:##############################
+INFO:root:Overall ROC score on all 10 FOLDs in TRAINING SET=0.9588978049001238, TESTING SET=0.94069971220927
+INFO:root:### FOLD 0 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 3, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 200, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9940223305104792
+INFO:root:Testing ROC Score: 0.9448886350656768
+INFO:root:Classification Report - Traning (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.94      0.95       920
+    churn_cus       0.94      0.97      0.96       919
+
+     accuracy                           0.95      1839
+    macro avg       0.95      0.95      0.95      1839
+ weighted avg       0.95      0.95      0.95      1839
+
+INFO:root:Classification Report - Testing (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.88      0.87      0.88       102
+    churn_cus       0.88      0.88      0.88       103
+
+     accuracy                           0.88       205
+    macro avg       0.88      0.88      0.88       205
+ weighted avg       0.88      0.88      0.88       205
+
+INFO:root:##############################
+INFO:root:### FOLD 1 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 3, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 200, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9944895207456119
+INFO:root:Testing ROC Score: 0.9853417094993338
+INFO:root:Classification Report - Traning (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.94      0.95       920
+    churn_cus       0.94      0.97      0.96       919
+
+     accuracy                           0.95      1839
+    macro avg       0.96      0.95      0.95      1839
+ weighted avg       0.96      0.95      0.95      1839
+
+INFO:root:Classification Report - Testing (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.99      0.86      0.92       102
+    churn_cus       0.88      0.99      0.93       103
+
+     accuracy                           0.93       205
+    macro avg       0.93      0.93      0.93       205
+ weighted avg       0.93      0.93      0.93       205
+
+INFO:root:##############################
+INFO:root:### FOLD 2 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 3, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 200, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.995475942659791
+INFO:root:Testing ROC Score: 0.9568817818389492
+INFO:root:Classification Report - Traning (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.94      0.96       919
+    churn_cus       0.95      0.97      0.96       920
+
+     accuracy                           0.96      1839
+    macro avg       0.96      0.96      0.96      1839
+ weighted avg       0.96      0.96      0.96      1839
+
+INFO:root:Classification Report - Testing (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.88      0.87      0.88       103
+    churn_cus       0.87      0.88      0.88       102
+
+     accuracy                           0.88       205
+    macro avg       0.88      0.88      0.88       205
+ weighted avg       0.88      0.88      0.88       205
+
+INFO:root:##############################
+INFO:root:### FOLD 3 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 3, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 200, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9940542650328807
+INFO:root:Testing ROC Score: 0.9748715019988579
+INFO:root:Classification Report - Traning (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.98      0.94      0.96       919
+    churn_cus       0.94      0.98      0.96       920
+
+     accuracy                           0.96      1839
+    macro avg       0.96      0.96      0.96      1839
+ weighted avg       0.96      0.96      0.96      1839
+
+INFO:root:Classification Report - Testing (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.91      0.88      0.90       103
+    churn_cus       0.89      0.91      0.90       102
+
+     accuracy                           0.90       205
+    macro avg       0.90      0.90      0.90       205
+ weighted avg       0.90      0.90      0.90       205
+
+INFO:root:##############################
+INFO:root:### FOLD 4 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 3, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 200, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.99429584120983
+INFO:root:Testing ROC Score: 0.9681853133410228
+INFO:root:Classification Report - Traning (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.94      0.96       920
+    churn_cus       0.95      0.97      0.96       920
+
+     accuracy                           0.96      1840
+    macro avg       0.96      0.96      0.96      1840
+ weighted avg       0.96      0.96      0.96      1840
+
+INFO:root:Classification Report - Testing (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.93      0.82      0.88       102
+    churn_cus       0.84      0.94      0.89       102
+
+     accuracy                           0.88       204
+    macro avg       0.89      0.88      0.88       204
+ weighted avg       0.89      0.88      0.88       204
+
+INFO:root:##############################
+INFO:root:### FOLD 5 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 3, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 200, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9945215028355388
+INFO:root:Testing ROC Score: 0.9672241445597847
+INFO:root:Classification Report - Traning (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.95      0.96       920
+    churn_cus       0.95      0.97      0.96       920
+
+     accuracy                           0.96      1840
+    macro avg       0.96      0.96      0.96      1840
+ weighted avg       0.96      0.96      0.96      1840
+
+INFO:root:Classification Report - Testing (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.89      0.91       102
+    churn_cus       0.90      0.92      0.91       102
+
+     accuracy                           0.91       204
+    macro avg       0.91      0.91      0.91       204
+ weighted avg       0.91      0.91      0.91       204
+
+INFO:root:##############################
+INFO:root:### FOLD 6 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 3, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 200, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9947412570888469
+INFO:root:Testing ROC Score: 0.96280276816609
+INFO:root:Classification Report - Traning (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.98      0.94      0.96       920
+    churn_cus       0.94      0.98      0.96       920
+
+     accuracy                           0.96      1840
+    macro avg       0.96      0.96      0.96      1840
+ weighted avg       0.96      0.96      0.96      1840
+
+INFO:root:Classification Report - Testing (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.89      0.89      0.89       102
+    churn_cus       0.89      0.89      0.89       102
+
+     accuracy                           0.89       204
+    macro avg       0.89      0.89      0.89       204
+ weighted avg       0.89      0.89      0.89       204
+
+INFO:root:##############################
+INFO:root:### FOLD 7 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 3, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 200, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9936566635160681
+INFO:root:Testing ROC Score: 0.9366589773164168
+INFO:root:Classification Report - Traning (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.97      0.94      0.96       920
+    churn_cus       0.94      0.97      0.96       920
+
+     accuracy                           0.96      1840
+    macro avg       0.96      0.96      0.96      1840
+ weighted avg       0.96      0.96      0.96      1840
+
+INFO:root:Classification Report - Testing (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.88      0.81      0.85       102
+    churn_cus       0.83      0.89      0.86       102
+
+     accuracy                           0.85       204
+    macro avg       0.86      0.85      0.85       204
+ weighted avg       0.86      0.85      0.85       204
+
+INFO:root:##############################
+INFO:root:### FOLD 8 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 3, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 200, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9952043950850661
+INFO:root:Testing ROC Score: 0.9437716262975778
+INFO:root:Classification Report - Traning (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.98      0.95      0.96       920
+    churn_cus       0.95      0.98      0.96       920
+
+     accuracy                           0.96      1840
+    macro avg       0.96      0.96      0.96      1840
+ weighted avg       0.96      0.96      0.96      1840
+
+INFO:root:Classification Report - Testing (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.88      0.88       102
+    churn_cus       0.88      0.87      0.88       102
+
+     accuracy                           0.88       204
+    macro avg       0.88      0.88      0.88       204
+ weighted avg       0.88      0.88      0.88       204
+
+INFO:root:##############################
+INFO:root:### FOLD 9 ###
+INFO:root:Model Name: xgb
+INFO:root:Hyperparameters: {'objective': 'binary:logistic', 'base_score': None, 'booster': None, 'callbacks': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'device': None, 'early_stopping_rounds': None, 'enable_categorical': False, 'eval_metric': None, 'feature_types': None, 'gamma': 0.0, 'grow_policy': None, 'importance_type': None, 'interaction_constraints': None, 'learning_rate': 0.08369736219437933, 'max_bin': None, 'max_cat_threshold': None, 'max_cat_to_onehot': None, 'max_delta_step': None, 'max_depth': 3, 'max_leaves': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'multi_strategy': None, 'n_estimators': 200, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.1, 'reg_lambda': 0.1, 'sampling_method': None, 'scale_pos_weight': 1, 'subsample': 1.0, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+INFO:root:Traning ROC Score: 0.9940300094517958
+INFO:root:Testing ROC Score: 0.9692425990003845
+INFO:root:Classification Report - Traning (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.98      0.94      0.96       920
+    churn_cus       0.95      0.98      0.96       920
+
+     accuracy                           0.96      1840
+    macro avg       0.96      0.96      0.96      1840
+ weighted avg       0.96      0.96      0.96      1840
+
+INFO:root:Classification Report - Testing (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.95      0.82      0.88       102
+    churn_cus       0.84      0.96      0.90       102
+
+     accuracy                           0.89       204
+    macro avg       0.90      0.89      0.89       204
+ weighted avg       0.90      0.89      0.89       204
+
+INFO:root:##############################
+INFO:root:Overall ROC score on all 10 FOLDs in TRAINING SET=0.9944491728135908, TESTING SET=0.9609869057084094

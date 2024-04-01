@@ -48,11 +48,17 @@ def training(fold, model, encoding=False):
     xvalid = test_enc.drop('status', axis=1).values
     yvalid = test_enc.status.values
 
-    scaler = preprocessing.StandardScaler()
-    xtrain = scaler.fit_transform(xtrain)
-    xvalid = scaler.transform(xvalid)
+    # # Robust Scaling
+    # robust_scaler = preprocessing.RobustScaler()
+    # xtrain = robust_scaler.fit_transform(xtrain)
+    # xvalid = robust_scaler.transform(xvalid)
 
-    
+    # Quantile Transformer
+    quantile_transformer = preprocessing.QuantileTransformer()
+    xtrain = quantile_transformer.fit_transform(xtrain)
+    xvalid = quantile_transformer.transform(xvalid)
+
+
     model = model_dispatcher.models[model]
     logging.info(f"Model Name: {args.model}")
     logging.info(f"Hyperparameters: {model.get_params()}")
@@ -90,7 +96,7 @@ if __name__ == "__main__":
     # Lets define argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--fold", type=int, default=5)
-    parser.add_argument("--model", type=str, default="lr", choices=["lr", "dt", "rf"])
+    parser.add_argument("--model", type=str, default="lr", choices=["lr", "dt", "rf", "xgb"])
     parser.add_argument("--logs", type=str)
     args = parser.parse_args()
 
