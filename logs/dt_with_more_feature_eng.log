@@ -1,0 +1,522 @@
+INFO:root:### FOLD 0 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 100, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 5, 'min_samples_split': 100, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9484292946018831
+INFO:root:Testing ROC Score: 0.899200456881782
+INFO:root:Classification Report - Traning (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.88      0.85      0.86       920
+    churn_cus       0.86      0.88      0.87       919
+
+     accuracy                           0.87      1839
+    macro avg       0.87      0.87      0.87      1839
+ weighted avg       0.87      0.87      0.87      1839
+
+INFO:root:Classification Report - Testing (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.84      0.79      0.81       102
+    churn_cus       0.81      0.84      0.82       103
+
+     accuracy                           0.82       205
+    macro avg       0.82      0.82      0.82       205
+ weighted avg       0.82      0.82      0.82       205
+
+INFO:root:##############################
+INFO:root:### FOLD 1 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 100, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 5, 'min_samples_split': 100, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9434250366655629
+INFO:root:Testing ROC Score: 0.9454121454407005
+INFO:root:Classification Report - Traning (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.91      0.82      0.86       920
+    churn_cus       0.83      0.92      0.87       919
+
+     accuracy                           0.87      1839
+    macro avg       0.87      0.87      0.87      1839
+ weighted avg       0.87      0.87      0.87      1839
+
+INFO:root:Classification Report - Testing (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.94      0.77      0.85       102
+    churn_cus       0.81      0.95      0.88       103
+
+     accuracy                           0.86       205
+    macro avg       0.88      0.86      0.86       205
+ weighted avg       0.87      0.86      0.86       205
+
+INFO:root:##############################
+INFO:root:### FOLD 2 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 100, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 5, 'min_samples_split': 100, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9437177697875763
+INFO:root:Testing ROC Score: 0.881353512278698
+INFO:root:Classification Report - Traning (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.85      0.86       919
+    churn_cus       0.85      0.87      0.86       920
+
+     accuracy                           0.86      1839
+    macro avg       0.86      0.86      0.86      1839
+ weighted avg       0.86      0.86      0.86      1839
+
+INFO:root:Classification Report - Testing (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.75      0.83      0.79       103
+    churn_cus       0.80      0.73      0.76       102
+
+     accuracy                           0.78       205
+    macro avg       0.78      0.78      0.77       205
+ weighted avg       0.78      0.78      0.78       205
+
+INFO:root:##############################
+INFO:root:### FOLD 3 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 100, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 5, 'min_samples_split': 100, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9479804371481289
+INFO:root:Testing ROC Score: 0.9010089472682277
+INFO:root:Classification Report - Traning (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.86      0.88      0.87       919
+    churn_cus       0.88      0.85      0.87       920
+
+     accuracy                           0.87      1839
+    macro avg       0.87      0.87      0.87      1839
+ weighted avg       0.87      0.87      0.87      1839
+
+INFO:root:Classification Report - Testing (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.75      0.88      0.81       103
+    churn_cus       0.86      0.71      0.77       102
+
+     accuracy                           0.80       205
+    macro avg       0.80      0.79      0.79       205
+ weighted avg       0.80      0.80      0.79       205
+
+INFO:root:##############################
+INFO:root:### FOLD 4 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 100, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 5, 'min_samples_split': 100, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9437163279773156
+INFO:root:Testing ROC Score: 0.9114763552479815
+INFO:root:Classification Report - Traning (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.85      0.86      0.86       920
+    churn_cus       0.86      0.85      0.86       920
+
+     accuracy                           0.86      1840
+    macro avg       0.86      0.86      0.86      1840
+ weighted avg       0.86      0.86      0.86      1840
+
+INFO:root:Classification Report - Testing (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.81      0.78      0.80       102
+    churn_cus       0.79      0.81      0.80       102
+
+     accuracy                           0.80       204
+    macro avg       0.80      0.80      0.80       204
+ weighted avg       0.80      0.80      0.80       204
+
+INFO:root:##############################
+INFO:root:### FOLD 5 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 100, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 5, 'min_samples_split': 100, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9438403827977315
+INFO:root:Testing ROC Score: 0.904555940023068
+INFO:root:Classification Report - Traning (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.83      0.85       920
+    churn_cus       0.84      0.88      0.86       920
+
+     accuracy                           0.86      1840
+    macro avg       0.86      0.86      0.86      1840
+ weighted avg       0.86      0.86      0.86      1840
+
+INFO:root:Classification Report - Testing (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.88      0.82      0.85       102
+    churn_cus       0.83      0.88      0.86       102
+
+     accuracy                           0.85       204
+    macro avg       0.85      0.85      0.85       204
+ weighted avg       0.85      0.85      0.85       204
+
+INFO:root:##############################
+INFO:root:### FOLD 6 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 100, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 5, 'min_samples_split': 100, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9441534735349716
+INFO:root:Testing ROC Score: 0.8844194540561322
+INFO:root:Classification Report - Traning (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.85      0.88      0.86       920
+    churn_cus       0.87      0.85      0.86       920
+
+     accuracy                           0.86      1840
+    macro avg       0.86      0.86      0.86      1840
+ weighted avg       0.86      0.86      0.86      1840
+
+INFO:root:Classification Report - Testing (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.79      0.77      0.78       102
+    churn_cus       0.78      0.79      0.79       102
+
+     accuracy                           0.78       204
+    macro avg       0.78      0.78      0.78       204
+ weighted avg       0.78      0.78      0.78       204
+
+INFO:root:##############################
+INFO:root:### FOLD 7 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 100, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 5, 'min_samples_split': 100, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9465099243856332
+INFO:root:Testing ROC Score: 0.8720684352172241
+INFO:root:Classification Report - Traning (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.85      0.86       920
+    churn_cus       0.85      0.87      0.86       920
+
+     accuracy                           0.86      1840
+    macro avg       0.86      0.86      0.86      1840
+ weighted avg       0.86      0.86      0.86      1840
+
+INFO:root:Classification Report - Testing (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.82      0.74      0.77       102
+    churn_cus       0.76      0.83      0.79       102
+
+     accuracy                           0.78       204
+    macro avg       0.79      0.78      0.78       204
+ weighted avg       0.79      0.78      0.78       204
+
+INFO:root:##############################
+INFO:root:### FOLD 8 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 100, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 5, 'min_samples_split': 100, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9501222826086957
+INFO:root:Testing ROC Score: 0.8900422914263744
+INFO:root:Classification Report - Traning (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.86      0.86       920
+    churn_cus       0.86      0.87      0.86       920
+
+     accuracy                           0.86      1840
+    macro avg       0.86      0.86      0.86      1840
+ weighted avg       0.86      0.86      0.86      1840
+
+INFO:root:Classification Report - Testing (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.78      0.85      0.82       102
+    churn_cus       0.84      0.76      0.80       102
+
+     accuracy                           0.81       204
+    macro avg       0.81      0.81      0.81       204
+ weighted avg       0.81      0.81      0.81       204
+
+INFO:root:##############################
+INFO:root:### FOLD 9 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 100, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 5, 'min_samples_split': 100, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9424633742911153
+INFO:root:Testing ROC Score: 0.9303633217993079
+INFO:root:Classification Report - Traning (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.89      0.82      0.85       920
+    churn_cus       0.83      0.90      0.86       920
+
+     accuracy                           0.86      1840
+    macro avg       0.86      0.86      0.86      1840
+ weighted avg       0.86      0.86      0.86      1840
+
+INFO:root:Classification Report - Testing (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.81      0.86       102
+    churn_cus       0.83      0.93      0.88       102
+
+     accuracy                           0.87       204
+    macro avg       0.88      0.87      0.87       204
+ weighted avg       0.88      0.87      0.87       204
+
+INFO:root:##############################
+INFO:root:Overall ROC score on all 10 FOLDs in TRAINING SET=0.9454358303798613, TESTING SET=0.9019900859639496
+INFO:root:### FOLD 0 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 10, 'min_samples_split': 50, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9544613710554952
+INFO:root:Testing ROC Score: 0.8809251856082239
+INFO:root:Classification Report - Traning (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.88      0.86      0.87       920
+    churn_cus       0.86      0.88      0.87       919
+
+     accuracy                           0.87      1839
+    macro avg       0.87      0.87      0.87      1839
+ weighted avg       0.87      0.87      0.87      1839
+
+INFO:root:Classification Report - Testing (Fold 0):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.82      0.80      0.81       102
+    churn_cus       0.81      0.83      0.82       103
+
+     accuracy                           0.81       205
+    macro avg       0.81      0.81      0.81       205
+ weighted avg       0.81      0.81      0.81       205
+
+INFO:root:##############################
+INFO:root:### FOLD 1 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 10, 'min_samples_split': 50, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9554667171310971
+INFO:root:Testing ROC Score: 0.9487911669522178
+INFO:root:Classification Report - Traning (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.91      0.83      0.87       920
+    churn_cus       0.84      0.92      0.88       919
+
+     accuracy                           0.87      1839
+    macro avg       0.87      0.87      0.87      1839
+ weighted avg       0.87      0.87      0.87      1839
+
+INFO:root:Classification Report - Testing (Fold 1):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.93      0.81      0.87       102
+    churn_cus       0.84      0.94      0.89       103
+
+     accuracy                           0.88       205
+    macro avg       0.88      0.88      0.88       205
+ weighted avg       0.88      0.88      0.88       205
+
+INFO:root:##############################
+INFO:root:### FOLD 2 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 10, 'min_samples_split': 50, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9538280030278659
+INFO:root:Testing ROC Score: 0.8925851894155721
+INFO:root:Classification Report - Traning (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.89      0.88       919
+    churn_cus       0.89      0.86      0.87       920
+
+     accuracy                           0.88      1839
+    macro avg       0.88      0.88      0.88      1839
+ weighted avg       0.88      0.88      0.88      1839
+
+INFO:root:Classification Report - Testing (Fold 2):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.81      0.87      0.84       103
+    churn_cus       0.86      0.79      0.83       102
+
+     accuracy                           0.83       205
+    macro avg       0.84      0.83      0.83       205
+ weighted avg       0.84      0.83      0.83       205
+
+INFO:root:##############################
+INFO:root:### FOLD 3 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 10, 'min_samples_split': 50, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9544276623929603
+INFO:root:Testing ROC Score: 0.8989149057681325
+INFO:root:Classification Report - Traning (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.90      0.84      0.87       919
+    churn_cus       0.85      0.91      0.88       920
+
+     accuracy                           0.88      1839
+    macro avg       0.88      0.88      0.88      1839
+ weighted avg       0.88      0.88      0.88      1839
+
+INFO:root:Classification Report - Testing (Fold 3):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.76      0.79      0.77       103
+    churn_cus       0.78      0.75      0.76       102
+
+     accuracy                           0.77       205
+    macro avg       0.77      0.77      0.77       205
+ weighted avg       0.77      0.77      0.77       205
+
+INFO:root:##############################
+INFO:root:### FOLD 4 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 10, 'min_samples_split': 50, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9515979442344045
+INFO:root:Testing ROC Score: 0.917964244521338
+INFO:root:Classification Report - Traning (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.92      0.82      0.86       920
+    churn_cus       0.83      0.93      0.88       920
+
+     accuracy                           0.87      1840
+    macro avg       0.88      0.87      0.87      1840
+ weighted avg       0.88      0.87      0.87      1840
+
+INFO:root:Classification Report - Testing (Fold 4):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.88      0.72      0.79       102
+    churn_cus       0.76      0.90      0.83       102
+
+     accuracy                           0.81       204
+    macro avg       0.82      0.81      0.81       204
+ weighted avg       0.82      0.81      0.81       204
+
+INFO:root:##############################
+INFO:root:### FOLD 5 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 10, 'min_samples_split': 50, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9552463374291116
+INFO:root:Testing ROC Score: 0.9049404075355632
+INFO:root:Classification Report - Traning (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.89      0.84      0.86       920
+    churn_cus       0.85      0.90      0.87       920
+
+     accuracy                           0.87      1840
+    macro avg       0.87      0.87      0.87      1840
+ weighted avg       0.87      0.87      0.87      1840
+
+INFO:root:Classification Report - Testing (Fold 5):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.86      0.78      0.82       102
+    churn_cus       0.80      0.87      0.84       102
+
+     accuracy                           0.83       204
+    macro avg       0.83      0.83      0.83       204
+ weighted avg       0.83      0.83      0.83       204
+
+INFO:root:##############################
+INFO:root:### FOLD 6 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 10, 'min_samples_split': 50, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9565365075614367
+INFO:root:Testing ROC Score: 0.9067185697808535
+INFO:root:Classification Report - Traning (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.89      0.86      0.87       920
+    churn_cus       0.86      0.89      0.88       920
+
+     accuracy                           0.88      1840
+    macro avg       0.88      0.88      0.88      1840
+ weighted avg       0.88      0.88      0.88      1840
+
+INFO:root:Classification Report - Testing (Fold 6):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.85      0.75      0.80       102
+    churn_cus       0.78      0.86      0.82       102
+
+     accuracy                           0.81       204
+    macro avg       0.81      0.81      0.81       204
+ weighted avg       0.81      0.81      0.81       204
+
+INFO:root:##############################
+INFO:root:### FOLD 7 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 10, 'min_samples_split': 50, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9538634215500945
+INFO:root:Testing ROC Score: 0.8866301422529796
+INFO:root:Classification Report - Traning (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.90      0.84      0.87       920
+    churn_cus       0.85      0.91      0.88       920
+
+     accuracy                           0.87      1840
+    macro avg       0.87      0.87      0.87      1840
+ weighted avg       0.87      0.87      0.87      1840
+
+INFO:root:Classification Report - Testing (Fold 7):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.85      0.69      0.76       102
+    churn_cus       0.74      0.88      0.80       102
+
+     accuracy                           0.78       204
+    macro avg       0.80      0.78      0.78       204
+ weighted avg       0.80      0.78      0.78       204
+
+INFO:root:##############################
+INFO:root:### FOLD 8 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 10, 'min_samples_split': 50, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9581675330812855
+INFO:root:Testing ROC Score: 0.8743752402921954
+INFO:root:Classification Report - Traning (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.88      0.88       920
+    churn_cus       0.88      0.87      0.88       920
+
+     accuracy                           0.88      1840
+    macro avg       0.88      0.88      0.88      1840
+ weighted avg       0.88      0.88      0.88      1840
+
+INFO:root:Classification Report - Testing (Fold 8):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.77      0.83      0.80       102
+    churn_cus       0.82      0.75      0.78       102
+
+     accuracy                           0.79       204
+    macro avg       0.79      0.79      0.79       204
+ weighted avg       0.79      0.79      0.79       204
+
+INFO:root:##############################
+INFO:root:### FOLD 9 ###
+INFO:root:Model Name: dt
+INFO:root:Hyperparameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 10, 'min_samples_split': 50, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+INFO:root:Traning ROC Score: 0.9498853969754254
+INFO:root:Testing ROC Score: 0.9369473279507882
+INFO:root:Classification Report - Traning (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.87      0.85      0.86       920
+    churn_cus       0.86      0.88      0.87       920
+
+     accuracy                           0.86      1840
+    macro avg       0.86      0.86      0.86      1840
+ weighted avg       0.86      0.86      0.86      1840
+
+INFO:root:Classification Report - Testing (Fold 9):
+               precision    recall  f1-score   support
+
+Not_churn_cus       0.84      0.86      0.85       102
+    churn_cus       0.86      0.83      0.85       102
+
+     accuracy                           0.85       204
+    macro avg       0.85      0.85      0.85       204
+ weighted avg       0.85      0.85      0.85       204
+
+INFO:root:##############################
+INFO:root:Overall ROC score on all 10 FOLDs in TRAINING SET=0.9543480894439176, TESTING SET=0.9048792380077865

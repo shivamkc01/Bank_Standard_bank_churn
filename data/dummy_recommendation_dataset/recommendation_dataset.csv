@@ -1,0 +1,8 @@
+Churn_Type,Recommendation
+Young Customers,Offer student or youth banking accounts with no monthly fees and mobile banking features.
+High-Income Customers,Recommend premium banking services with personalized wealth management options and exclusive rewards.
+Female Customers,"Provide specialized financial planning services tailored to women's financial needs, such as investment advice or savings plans."
+Recently Married Customers,Offer joint accounts or mortgage services with competitive rates for home loans.
+Long-Term Customers,"Provide loyalty rewards or incentives for long-term customers, such as cashback on transactions or reduced fees."
+Low Transaction Activity Customers,Recommend budgeting tools or financial education resources to help them manage their finances better.
+High Transaction Activity Customers,"Offer premium credit cards with rewards points, travel benefits, or cashback incentives."

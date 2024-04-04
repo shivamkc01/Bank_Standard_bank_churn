@@ -1,12 +1,14 @@
 import os
 import random 
+import pandas as pd
+import itertools
 import datetime
 import numpy as np 
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn import preprocessing
 import config
-from sklearn.metrics import roc_curve, auc
+from sklearn.metrics import roc_curve, auc, confusion_matrix
 
 def seed_it_all(seed=config.SEED):
     """ Attempt to be Reproducible """
@@ -15,20 +17,30 @@ def seed_it_all(seed=config.SEED):
     np.random.seed(seed)
 
 
-def feature_with_date(df):
-    # Calculate additional features
-    current_date = datetime.datetime.now()
-    df['Age'] = (current_date - df['CUS_DOB']).dt.days / 365.25  # Age in years
-    df['Tenure'] = (current_date - df['CUS_Customer_Since']).dt.days / 365.25  # Tenure in years
-    df['Customer_Age_At_Onboarding'] = (df['CUS_Customer_Since'] - df['CUS_DOB']).dt.days / 365.25  # Age at onboarding
+def create_features(data):
+    data['high_monthly_income'] = (data['cus_month_income'] > data['cus_month_income'].quantile(0.75)).astype(int)
+    data['age_group'] = pd.cut(data['age'], bins=[0, 30, 50, 100], labels=['Young', 'Middle-aged', 'Senior'])
+    data = pd.get_dummies(data, columns=['age_group'])
+    data = pd.get_dummies(data, columns=['cus_gender', 'cus_marital_status'])
+    data['income_category'] = pd.qcut(data['cus_month_income'], q=3, labels=['Low', 'Medium', 'High'])
+    data = pd.get_dummies(data, columns=['income_category'])
+    data['total_transactions_last_3_months'] = data['total_transactions'] - data['total_transactions'].shift(3, fill_value=0)
+    data['credit_to_debit_ratio'] = data['total_credit_amt'] / (data['total_debit_amt'] + 1)  # Add 1 to avoid division by zero
+    data['customer_tenure'] = 2024 - data['cus_customer_since']
+    data['credit_utilization'] = data['total_credit_amt'] / (data['total_credit_amt'] + data['total_debit_amt'] + 1)  # Add 1 to avoid division by zero
+    data['debit_to_credit_transaction_ratio'] = data['total_debit_trans'] / (data['total_credit_trans'] + 1)  # Add 1 to avoid division by zero
+    data['interaction_age_income'] = data['age'] * data['cus_month_income']
 
-    # Convert features to int or float data types
-    df['Age'] = df['Age'].astype(float)
-    df['Tenure'] = df['Tenure'].astype(float)
-    df['Customer_Age_At_Onboarding'] = df['Customer_Age_At_Onboarding'].astype(float)
 
-    # Display the DataFrame with additional features
-    return df 
+    data['transaction_velocity'] = data['total_transactions'] / (data['years_with_us'] + 1)  # Add 1 to avoid division by zero
+    data['credit_utilization_ratio'] = data['total_credit_amt'] / (data['total_credit_amt'] + data['total_debit_amt'] + 1)  # Add 1 to avoid division by zero    data['income_stability'] = data['cus_month_income'].rolling(window=3).std() / data['cus_month_income'].rolling(window=3).mean()
+    data['income_stability'] = data['cus_month_income'].rolling(window=3).std() / (data['cus_month_income'].rolling(window=3).mean() + 1)  # Add 1 to avoid division by zero
+
+    data['customer_tenure'] = 2024 - data['cus_customer_since']
+    data['debt_to_income_ratio'] = data['total_debit_amt'] / (data['cus_month_income'] + 1)  # Add 1 to avoid division by zero
+    
+
+    return data
 
 
 def label_encode_categorical(df, cols):
@@ -141,5 +153,41 @@ def plot_roc_curve_for_classes(clf, x, y, class_labels, title):
     plt.ylabel('True Positive Rate')
     plt.title(title)
     plt.legend(loc="lower right")
-    plt.savefig(f"../plots/roc_auc_curve/folds_wihtout_sampling/{title}.jpg" ,dpi=100)
+    plt.savefig(f"../plots/roc_auc_curve/{title}.jpg" ,dpi=100)
+    plt.close()
+
+
+
+def plot_confusion_matrix(y_true, y_pred, classes, normalize=False, title=None, cmap=plt.cm.Blues):
+    """
+    This function prints and plots the confusion matrix.
+    Normalization can be applied by setting `normalize=True`.
+    """
+    cm = confusion_matrix(y_true, y_pred)
+    
+    if normalize:
+        cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+        print("Normalized confusion matrix")
+    else:
+        print('Confusion matrix, without normalization')
+
+    plt.figure(figsize=(8, 6))
+    plt.imshow(cm, interpolation='nearest', cmap=cmap)
+    plt.title(title if title else 'Confusion Matrix')
+    plt.colorbar()
+    tick_marks = np.arange(len(classes))
+    plt.xticks(tick_marks, classes, rotation=45)
+    plt.yticks(tick_marks, classes)
+
+    fmt = '.2f' if normalize else 'd'
+    thresh = cm.max() / 2.
+    for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
+        plt.text(j, i, format(cm[i, j], fmt),
+                 horizontalalignment="center",
+                 color="white" if cm[i, j] > thresh else "black")
+
+    plt.ylabel('True label')
+    plt.xlabel('Predicted label')
+    plt.tight_layout()
+    plt.savefig(f"../results/confusion_matrix/{title}.jpg" ,dpi=100)
     plt.close()

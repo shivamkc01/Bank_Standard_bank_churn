@@ -1,8 +1,11 @@
 #!/bin/bash
-
 set -e
-echo "TRAINING STARTED!"
-echo "Aurthur by Shivam Chhetry on 30.03.24 @ 23.08 PM"
+log() {
+    echo "$(date +'%Y-%m-%d %H:%M:%S') - $1"
+}
+log "TRAINING STARTED!"
+log "Author: Shivam Chhetry"
 
-python train.py --fold 10 --model dt --logs DecisionTree_with_smote
+python train.py --fold 10 --model lr --auc_plot True --metric roc_auc || { log "Error: Training script failed"; exit 1; }
+
 echo "SUCCESSFUL DONE!"

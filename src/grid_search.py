@@ -8,7 +8,7 @@
     def param_search(X_train, X_test, y_train, y_test):
         # Define the parameter grid
         param_grid = {
-            'n_estimators': [100, 150, 200, 300],
+            'n_estimators': [100, 150],
             'max_depth': [1, 2,3],
             'learning_rate': [0.01, 0.05, 0.1, 0.2],
             'subsample': [0.6, 0.7, 0.8, 0.9, 1.0],
