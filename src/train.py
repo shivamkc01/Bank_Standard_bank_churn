@@ -76,6 +76,9 @@ def training(fold, model, encoding=False, plot_roc = False, plot_conf_matrix=Fal
     train_scores = {}
     test_scores = {}
     
+    if metric == 'f1_weighted':
+        train_score = metrics.f1_score(ytrain, train_preds, average='weighted')
+        test_score = metrics.f1_score(yvalid, test_preds, average='weighted')
     if metric == 'f1_score':
         train_score = metrics.f1_score(ytrain, train_preds)
         test_score = metrics.f1_score(yvalid, test_preds)
@@ -138,7 +141,7 @@ if __name__ == "__main__":
     parser.add_argument("--model", type=str, default="lr", choices=["lr", "dt", "rf", "xgb"])
     parser.add_argument("--logs", type=str, default=None)
     parser.add_argument("--confusion_matrix", type=bool, default=False)
-    parser.add_argument("--metric", type=str, default='roc_auc', choices=['f1_score', 'roc_auc', 'precision', 'recall', 'accuracy'])
+    parser.add_argument("--metric", type=str, default='roc_auc', choices=['f1_score', 'roc_auc', 'precision', 'recall', 'accuracy', 'f1_weighted'])
     parser.add_argument("--auc_plot", type=bool, default=False)
     args = parser.parse_args()
 

@@ -634,3 +634,9 @@ INFO:root:### FOLD 9 ###
 INFO:root:Model Name: lr
 INFO:root:Hyperparameters: {'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
 INFO:root:Overall roc_auc on all 10 FOLDs in TRAINING SET=0.9224745354324068, TESTING SET=0.91364822342415
+INFO:root:### FOLD 0 ###
+INFO:root:### FOLD 0 ###
+INFO:root:### FOLD 1 ###
+INFO:root:### FOLD 2 ###
+INFO:root:### FOLD 3 ###
+INFO:root:### FOLD 4 ###
