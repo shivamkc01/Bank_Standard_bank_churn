@@ -9,7 +9,7 @@ import seaborn as sns
 from sklearn import preprocessing
 import config
 from sklearn.metrics import roc_curve, auc, confusion_matrix
-
+from sklearn.ensemble import IsolationForest
 def seed_it_all(seed=config.SEED):
     """ Attempt to be Reproducible """
     os.environ['PYTHONHASHSEED'] = str(seed)
@@ -56,6 +56,27 @@ def label_encode_categorical(df, cols):
         df_encoded[col] = le.fit_transform(df[col])
 
     return df_encoded
+
+
+def remove_outliers_isolation_forest(df, features):
+    """
+    Remove outliers from the specified features using Isolation Forest method.
+    
+    Args:
+    - df: DataFrame containing the dataset
+    - features: List of features to remove outliers from
+    
+    Returns:
+    - df_cleaned: DataFrame with outliers removed
+    """
+    print(f"Before outliers removing shape of data: {df.shape}")
+    df_cleaned = df.copy()
+    clf = IsolationForest(random_state=0)
+    outlier_preds = clf.fit_predict(df_cleaned[features])
+    df_cleaned = df_cleaned[outlier_preds != -1]
+    print(f"After outliers removing shape of data: {df_cleaned.shape}")
+    return df_cleaned
+
 
 def remove_outliers_iqr(df, columns, threshold=1.5):
     """

@@ -16,11 +16,15 @@ import config
 import model_dispatcher
 import data_cleaning
 from helper import plot_roc_curve_for_classes, plot_confusion_matrix, create_features
+plt.style.use('_classic_test_patch')
 
 train_roc_auc_list = []
 test_roc_auc_list = []
 train_classification_reports = []
 test_classification_reports = []
+train_scores = []
+test_scores = []
+
 
 def training(fold, model, encoding=False, plot_roc = False, plot_conf_matrix=False, metric='roc_auc'):
     print("#"*20)
@@ -42,7 +46,7 @@ def training(fold, model, encoding=False, plot_roc = False, plot_conf_matrix=Fal
             combined_df[column] = label_encoder.fit_transform(combined_df[column])
     
     # Replace NaN values with the mean of each column
-    imputer = SimpleImputer(strategy='mean')
+    imputer = SimpleImputer(strategy='median')
     combined_df = pd.DataFrame(imputer.fit_transform(combined_df), columns=combined_df.columns)
     # Split back into training and validation sets
     train_enc = combined_df[:len(df_train)]
@@ -72,9 +76,6 @@ def training(fold, model, encoding=False, plot_roc = False, plot_conf_matrix=Fal
     test_preds = model.predict(xvalid)
     train_preds_prob = model.predict_proba(xtrain)[:,1]
     test_preds_prob = model.predict_proba(xvalid)[:,1]
-
-    train_scores = {}
-    test_scores = {}
     
     if metric == 'f1_weighted':
         train_score = metrics.f1_score(ytrain, train_preds, average='weighted')
@@ -97,8 +98,8 @@ def training(fold, model, encoding=False, plot_roc = False, plot_conf_matrix=Fal
     else:
         raise ValueError(f"Unsupported metric: {metric}")
 
-    # train_scores[metric] = train_score
-    # test_scores[metric] = test_score
+    train_scores.append(train_score)
+    test_scores.append(test_score)
 
     print(f"Training {metric}: {train_score}")
     print(f"Testing {metric}: {test_score}")
@@ -157,3 +158,15 @@ if __name__ == "__main__":
 
     logging.info(f"Overall {args.metric} on all 10 FOLDs in TRAINING SET={np.mean(train_roc_auc_avg)}, TESTING SET={np.mean(test_roc_auc_avg)}") 
     print(f"Overall Training {args.metric}: {np.mean(train_roc_auc_avg)}, Testing {args.metric} : {np.mean(test_roc_auc_avg)}")
+    plt.figure(figsize=(10, 6))
+    plt.plot(range(1, args.fold+1), train_scores, label='Training Score', marker='o')
+    plt.plot(range(1, args.fold+1), test_scores, label='Testing Score', marker='o')
+    plt.title(f'Training and Testing Scores for Each Fold with {args.model}')
+    plt.xlabel('Fold')
+    plt.ylabel('Score')
+    plt.xticks(range(1, args.fold+1))
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig(f'../results/training_testing_score_{args.model}.png')
+    plt.show()
